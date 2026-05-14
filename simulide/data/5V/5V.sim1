@@ -1,0 +1,15 @@
+<circuit version="1.2.0" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Package" CircId="Package-28" mainComp="false" Show_id="true" Show_Val="false" Pos="-68,12" rotation="0" hflip="1" vflip="1" label="5V" idLabPos="-5.67834,-20.4873" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="1" Height="1" Logic_Symbol="false" Background=":/null-0.png" BckGndData="89504e470d0a1a0a0000000d4948445200000002000000280806000000d4812b7400000006624b474400ff00ff00ffa0bda793000000097048597300000b1300000b1301009a9c180000000774494d4507e10105120132d51cacda0000000d4944415418d363601805f4000001680001d9b615b40000000049454e44ae426082" Pins="Pin; type=; xpos=4; ypos=8; angle=270; length=1; space=0; id=VCC; label=&#xa;" />
+
+<item itemtype="Rail" CircId="Rail-25" mainComp="true" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-84,-28" rotation="0" hflip="1" vflip="1" label="Rail-25" idLabPos="-16,-24" labelrot="0" valLabPos="-18,-8" valLabRot="0" boardPos="0,-56" circPos="-84,-28" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Voltage="5 V" />
+
+<item itemtype="Tunnel" CircId="Tunnel-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,-28" rotation="0" hflip="-1" vflip="1" label="Tunnel-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,-80" circPos="-60,-28" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="VCC" IsBus="false" />
+
+<item itemtype="Ellipse" CircId="Ellipse-34" mainComp="true" Show_id="false" Show_Val="false" Pos="-48,12" rotation="0" hflip="1" vflip="1" label="Ellipse-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,4" circPos="-48,12" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="6 Pixels" V_size="6 Pixels" Border="1 Pixels" Z_Value="4" Color="#ff0060" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-88,-68" rotation="0" hflip="1" vflip="1" label="TextComponent-35" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-20,-80" circPos="-88,-68" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="5 VOLTS" />
+
+<item itemtype="Connector" uid="connector-35" startpinid="Tunnel-26-pin" endpinid="Rail-25-outnod" pointList="-60,-28,-68,-28" />
+
+</circuit>

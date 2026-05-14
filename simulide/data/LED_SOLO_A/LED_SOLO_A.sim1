@@ -1,0 +1,21 @@
+<circuit version="1.2.0" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-364,-108" rotation="0" hflip="1" vflip="1" label="LED_SOLO_A" idLabPos="-14,-21" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="2 Cells" Height="2 Cells" Logic_Symbol="false" Background=":/null-0.png" BckGndData="89504e470d0a1a0a0000000d4948445200000002000000280806000000d4812b7400000006624b474400ff00ff00ffa0bda793000000097048597300000b1300000b1301009a9c180000000774494d4507e10105120132d51cacda0000000d4944415418d363601805f4000001680001d9b615b40000000049454e44ae426082" Pins="Pin; type=; xpos=-4; ypos=8; angle=180; length=8; space=0; id=A; label=&#xa;Pin; type=; xpos=20; ypos=8; angle=0; length=8; space=0; id=K; label=&#xa;" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-380,-148" rotation="0" hflip="1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-32,-88" circPos="-380,-148" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="A" IsBus="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-380,-196" rotation="0" hflip="1" vflip="1" label="TextComponent-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-16,-88" circPos="-380,-196" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="8 _px" Fixed_Width="false" Text="LED_SOLO_A" />
+
+<item itemtype="Tunnel" CircId="Tunnel-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-332,-148" rotation="0" hflip="-1" vflip="1" label="Tunnel-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="36,-60" circPos="-332,-148" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="K" IsBus="false" />
+
+<item itemtype="Rectangle" CircId="Rectangle-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-360,-100" rotation="0" hflip="1" vflip="1" label="Rectangle-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,8" circPos="-360,-100" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="8 _px" V_size="10 _px" Border="1 _px" Z_Value="0" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-352,-100" rotation="0" hflip="1" vflip="1" label="Rectangle-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="12,8" circPos="-352,-100" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="8 _px" V_size="10 _px" Border="1 _px" Z_Value="0" Color="#00aaff" Opacity="1" />
+
+<item itemtype="LedBar" CircId="LedBar-15" mainComp="true" Show_id="false" Show_Val="false" Pos="-356,-124" rotation="0" hflip="1" vflip="1" label="LedBar-15" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" boardPos="4,32" circPos="-356,-124" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Color="Yellow" Size="1 _Leds" Grounded="false" Threshold="2 V" MaxCurrent="20 mA" Resistance="100 Ω" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="LedBar-15-led0-pinN" endpinid="Tunnel-8-pin" pointList="-340,-148,-332,-148" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="LedBar-15-led0-pinP" endpinid="Tunnel-7-pin" pointList="-372,-148,-380,-148" />
+
+</circuit>

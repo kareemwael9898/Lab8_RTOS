@@ -1,0 +1,105 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega168-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-76,-68" rotation="0" hflip="1" vflip="1" label="atmega168" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../main.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="true" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Subcircuit" CircId="LM35_TEMP-47" mainComp="false" Show_id="true" Show_Val="false" Pos="156,28" rotation="0" hflip="1" vflip="1" label="LM35_TEMP" idLabPos="10.9672,33.2332" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="5V-49" mainComp="false" Show_id="true" Show_Val="false" Pos="132,28" rotation="-90" hflip="1" vflip="1" label="5V" idLabPos="23.6305,-2.67393" labelrot="90" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="Rail-25" Voltage="5 V" />
+
+<mainCompProps MainCompId="Ellipse-34" H_size="6 Pixels" V_size="6 Pixels" Border="1 Pixels" Z_Value="2" Color="#ff0060" Opacity="1" />
+</item>
+
+<item itemtype="Subcircuit" CircId="VOLTIS-64" mainComp="false" Show_id="false" Show_Val="false" Pos="72,-20" rotation="0" hflip="1" vflip="1" label="VOLTIS-64" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="TextComponent-2" Links="64@Probe-1," />
+
+<mainCompProps MainCompId="Rectangle-8" H_size="48 _px" V_size="16 _px" Border="1 _px" Z_Value="-1" Color="#007200" Opacity="1" />
+</item>
+
+<item itemtype="Rail" CircId="Rail-71" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-108,20" rotation="360" hflip="1" vflip="1" label="Rail-71" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Capacitor" CircId="Capacitor-72" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-144,36" rotation="90" hflip="1" vflip="1" label="Capacitor-72" idLabPos="-16,-24" labelrot="0" valLabPos="-13.824,33.744" valLabRot="270" Capacitance="100 nF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Ground" CircId="Ground-73" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,76" rotation="0" hflip="1" vflip="1" label="Ground-73" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="L298P-76" mainComp="false" Show_id="true" Show_Val="false" Pos="8,-172" rotation="0" hflip="1" vflip="1" label="L298P-H-Bridge" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="DcMotor" CircId="DcMotor-77" mainComp="false" Show_id="true" Show_Val="false" Pos="136,-152" rotation="90" hflip="1" vflip="1" label="DcMotor" idLabPos="-59.1167,24.024" labelrot="-90" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Ground" CircId="Ground-83" mainComp="false" Show_id="false" Show_Val="false" Pos="64,-84" rotation="0" hflip="1" vflip="1" label="Ground-83" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Rail" CircId="Rail-86" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="64,-140" rotation="90" hflip="1" vflip="1" label="Rail-86" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Rail" CircId="Rail-87" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-20,-140" rotation="90" hflip="1" vflip="1" label="Rail-87" idLabPos="-5,-10" labelrot="-90" valLabPos="-12,6" valLabRot="-90" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-90" mainComp="false" Show_id="false" Show_Val="false" Pos="16,-4" rotation="0" hflip="1" vflip="1" label="Ground-90" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-99" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,-20" rotation="0" hflip="1" vflip="1" label="Push-99" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="Subcircuit" CircId="VOLTIS-101" mainComp="false" Show_id="false" Show_Val="false" Pos="-60,-188" rotation="0" hflip="1" vflip="1" label="VOLTIS-101" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0">
+<mainCompProps MainCompId="TextComponent-2" Links="101@Probe-1," />
+
+<mainCompProps MainCompId="Rectangle-8" H_size="48 _px" V_size="16 _px" Border="1 _px" Z_Value="-1" Color="#007200" Opacity="1" />
+</item>
+
+<item itemtype="Ground" CircId="Ground-105" mainComp="false" Show_id="false" Show_Val="false" Pos="136,80" rotation="0" hflip="1" vflip="1" label="Ground-105" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Hd44780" CircId="Hd44780-108" mainComp="false" Show_id="true" Show_Val="false" Pos="-200,-196" rotation="0" hflip="1" vflip="1" label="Hd44780-108" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Ground" CircId="Ground-110" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,-152" rotation="0" hflip="1" vflip="1" label="Ground-110" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="40,12" />
+
+<item itemtype="Node" CircId="Node-102" mainComp="false" Pos="-32,-164" />
+
+<item itemtype="Connector" uid="Connector-41" startpinid="5V-49-VCC" endpinid="LM35_TEMP-47-V" pointList="140,32,148,32" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="Rail-71-outnod" endpinid="mega168-1-PORTV0" pointList="-92,20,-84,20" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Capacitor-72-lPin" endpinid="mega168-1-PORTV1" pointList="-144,20,-144,12,-84,12" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Ground-73-Gnd" endpinid="Capacitor-72-rPin" pointList="-144,60,-144,52" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Node-74-1" endpinid="mega168-1-PORTC0" pointList="40,12,-28,12" />
+
+<item itemtype="Connector" uid="Connector-68" startpinid="VOLTIS-64-In" endpinid="Node-74-0" pointList="64,-12,40,-12,40,12" />
+
+<item itemtype="Connector" uid="Connector-69" startpinid="Node-74-2" endpinid="LM35_TEMP-47-Out" pointList="40,12,120,12,120,44,148,44" />
+
+<item itemtype="Connector" uid="Connector-70" startpinid="L298P-76-OUT1" endpinid="DcMotor-77-lPin" pointList="48,-164,88,-164,88,-192,136,-192" />
+
+<item itemtype="Connector" uid="Connector-71" startpinid="DcMotor-77-rPin" endpinid="L298P-76-OUT2" pointList="136,-112,136,-108,88,-108,88,-156,48,-156" />
+
+<item itemtype="Connector" uid="Connector-87" startpinid="Ground-83-Gnd" endpinid="L298P-76-SenA" pointList="64,-100,64,-116,48,-116" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="L298P-76-Vs" endpinid="Rail-86-outnod" pointList="48,-124,64,-124" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Rail-87-outnod" endpinid="L298P-76-EnA" pointList="-20,-124,0,-124" />
+
+<item itemtype="Connector" uid="Connector-107" startpinid="Ground-90-Gnd" endpinid="Push-99-switch0pinN" pointList="16,-20,8,-20" />
+
+<item itemtype="Connector" uid="Connector-108" startpinid="Push-99-pinP0" endpinid="mega168-1-PORTB5" pointList="-24,-20,-28,-20" />
+
+<item itemtype="Connector" uid="Connector-109" startpinid="VOLTIS-101-In" endpinid="Node-102-1" pointList="-68,-180,-68,-164,-32,-164" />
+
+<item itemtype="Connector" uid="Connector-110" startpinid="mega168-1-PORTB2" endpinid="Node-102-0" pointList="-28,-44,-24,-44,-24,-104,-32,-104,-32,-164" />
+
+<item itemtype="Connector" uid="Connector-111" startpinid="Node-102-2" endpinid="L298P-76-IN1" pointList="-32,-164,0,-164" />
+
+<item itemtype="Connector" uid="Connector-112" startpinid="Ground-105-Gnd" endpinid="LM35_TEMP-47-G" pointList="136,64,136,56,148,56" />
+
+<item itemtype="Connector" uid="Connector-113" startpinid="Hd44780-108-dataPin7" endpinid="mega168-1-PORTD7" pointList="-104,-188,-104,-4,-84,-4" />
+
+<item itemtype="Connector" uid="Connector-114" startpinid="mega168-1-PORTD6" endpinid="Hd44780-108-dataPin6" pointList="-84,-12,-112,-12,-112,-188" />
+
+<item itemtype="Connector" uid="Connector-115" startpinid="mega168-1-PORTD5" endpinid="Hd44780-108-dataPin5" pointList="-84,-20,-120,-20,-120,-188" />
+
+<item itemtype="Connector" uid="Connector-116" startpinid="mega168-1-PORTD4" endpinid="Hd44780-108-dataPin4" pointList="-84,-28,-128,-28,-128,-188" />
+
+<item itemtype="Connector" uid="Connector-117" startpinid="mega168-1-PORTD3" endpinid="Hd44780-108-PinEn" pointList="-84,-36,-168,-36,-168,-188" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="mega168-1-PORTD2" endpinid="Hd44780-108-PinRS" pointList="-84,-44,-184,-44,-184,-188" />
+
+<item itemtype="Connector" uid="Connector-120" startpinid="Ground-110-Gnd" endpinid="Hd44780-108-PinRW" pointList="-176,-168,-176,-188" />
+
+</circuit>

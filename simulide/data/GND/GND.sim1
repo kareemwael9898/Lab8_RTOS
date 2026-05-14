@@ -1,0 +1,17 @@
+<circuit version="1.2.0" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Package" CircId="Package-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-4" rotation="0" hflip="1" vflip="1" label="Package-41" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="1" Height="1" Logic_Symbol="false" Background=":/null-0.png" BckGndData="89504e470d0a1a0a0000000d4948445200000002000000280806000000d4812b7400000006624b474400ff00ff00ffa0bda793000000097048597300000b1300000b1301009a9c180000000774494d4507e10105120132d51cacda0000000d4944415418d363601805f4000001680001d9b615b40000000049454e44ae426082" Pins="Pin; type=; xpos=4; ypos=4; angle=90; length=1; space=0; id=GND; label=&#xa;" />
+
+<item itemtype="Tunnel" CircId="Tunnel-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-52,-52" rotation="0" hflip="1" vflip="1" label="Tunnel-26" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="0,-72" circPos="-52,-52" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="GND" IsBus="false" />
+
+<item itemtype="Ground" CircId="Ground-36" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-28" rotation="0" hflip="1" vflip="1" label="Ground-36" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="16,-48" circPos="-36,-28" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="Line" CircId="Line-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,-4" rotation="0" hflip="1" vflip="1" label="Line-38" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="56,0" circPos="-44,-4" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="0 Pixels" V_size="4 Pixels" Border="3 Pixels" Z_Value="-1" Color="#000000" Opacity="1" />
+
+<item itemtype="Rectangle" CircId="Rectangle-40" mainComp="false" Show_id="false" Show_Val="false" Pos="-44,4" rotation="0" hflip="1" vflip="1" label="Rectangle-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,4" circPos="-44,4" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="14 _px" V_size="4 _px" Border="0 _px" Z_Value="-1" Color="#0000c0" Opacity="1" />
+
+<item itemtype="TextComponent" CircId="TextComponent-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-72,-100" rotation="0" hflip="1" vflip="1" label="TextComponent-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,-96" circPos="-72,-100" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text=" GND " />
+
+<item itemtype="Connector" uid="connector-40" startpinid="Ground-36-Gnd" endpinid="Tunnel-26-pin" pointList="-36,-44,-36,-52,-52,-52" />
+
+</circuit>

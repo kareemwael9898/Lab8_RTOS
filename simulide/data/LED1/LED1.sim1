@@ -1,0 +1,27 @@
+<circuit version="1.2.0" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Package" CircId="Package-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-364,-108" rotation="0" hflip="1" vflip="1" label="LED1" idLabPos="24,-9" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="2 Cells" Height="2 Cells" Logic_Symbol="false" Background=":/null-0.png" BckGndData="89504e470d0a1a0a0000000d4948445200000002000000280806000000d4812b7400000006624b474400ff00ff00ffa0bda793000000097048597300000b1300000b1301009a9c180000000774494d4507e10105120132d51cacda0000000d4944415418d363601805f4000001680001d9b615b40000000049454e44ae426082" Pins="Pin; type=; xpos=-8; ypos=8; angle=180; length=8; space=0; id=AN; label=&#xa;" />
+
+<item itemtype="Tunnel" CircId="Tunnel-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-420,-196" rotation="0" hflip="1" vflip="1" label="Tunnel-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-32,-88" circPos="-396,-196" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="AN" IsBus="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-384,-248" rotation="0" hflip="1" vflip="1" label="TextComponent-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Margin="-2 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="LED REDONDO" />
+
+<item itemtype="Buffer" CircId="Buffer-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-396,-196" rotation="0" hflip="1" vflip="1" label="Buffer-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Family="Custom" SupplyV="5 V" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" pd_n="1" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="LedBar" CircId="LedBar-2" mainComp="true" Show_id="false" Show_Val="false" Pos="-316,-172" rotation="0" hflip="1" vflip="1" label="LedBar-2" idLabPos="-16,-44" labelrot="0" valLabPos="-16,-56" valLabRot="0" boardPos="4,32" circPos="-316,-172" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Color="Yellow" Size="1 Leds" Grounded="false" Threshold="2 V" MaxCurrent="0.01 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ellipse" CircId="Ellipse-9" mainComp="true" Show_id="false" Show_Val="false" Pos="-332,-92" rotation="0" hflip="1" vflip="1" label="Ellipse-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="8,8" circPos="-332,-92" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="16 Pixels" V_size="16 Pixels" Border="1 Pixels" Z_Value="-1" Color="#ff0000" Opacity="1" />
+
+<item itemtype="Resistor" CircId="Resistor-3" mainComp="true" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-356,-196" rotation="0" hflip="1" vflip="1" label="Resistor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-10,4" valLabRot="0" boardPos="0,-88" circPos="-364,-196" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Resistance="200 Ω" />
+
+<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-292,-172" rotation="0" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="72,-64" circPos="-292,-172" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Resistor-3-rPin" endpinid="LedBar-2-led0-pinP" pointList="-340,-196,-332,-196" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Buffer-10-out" endpinid="Resistor-3-lPin" pointList="-380,-196,-372,-196" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Tunnel-7-pin" endpinid="Buffer-10-in0" pointList="-420,-196,-412,-196" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Ground-5-Gnd" endpinid="LedBar-2-led0-pinN" pointList="-292,-188,-292,-196,-300,-196" />
+
+</circuit>

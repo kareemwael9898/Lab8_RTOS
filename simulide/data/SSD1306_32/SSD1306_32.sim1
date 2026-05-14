@@ -1,0 +1,15 @@
+<circuit version="" rev="1530" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Ssd1306" CircId="Ssd1306-1" mainComp="true" Show_id="true" Show_Val="false" Pos="-4,-104" rotation="0" hflip="1" vflip="1" label="Ssd1306-1" idLabPos="-32,-60" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="68,32" circPos="-4,-104" boardRot="0" circRot="0" Color="White" Width="128 _Pixels" Height="32 Pixels" Frequency="100 _KHz" />
+
+<item itemtype="Tunnel" CircId="Tunnel-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-44" rotation="0" hflip="1" vflip="1" label="Tunnel-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-48,-104" circPos="-76,-44" boardRot="0" circRot="0" Name="SCL" />
+
+<item itemtype="Tunnel" CircId="Tunnel-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-76,-28" rotation="0" hflip="1" vflip="1" label="Tunnel-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-48,-88" circPos="-76,-28" boardRot="0" circRot="0" Name="SDA" />
+
+<item itemtype="Package" CircId="Package-6" mainComp="false" Show_id="true" Show_Val="false" Pos="-20,28" rotation="0" hflip="1" vflip="1" label="SSD1306_32" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" SubcType="Board" Width="4 _Cells" Height="7 Cells" Package_File="SSD1306_32_LS.package" Logic_Symbol="true" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Tunnel-2-pin" endpinid="Ssd1306-1-PinSck" pointList="-76,-44,-52,-44,-52,-72" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Tunnel-4-pin" endpinid="Ssd1306-1-PinSda" pointList="-76,-28,-44,-28,-44,-72" />
+
+</circuit>

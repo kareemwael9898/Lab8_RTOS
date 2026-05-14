@@ -1,0 +1,17 @@
+<circuit version="1.2.0" rev="2300" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" width="3200" height="2400" >
+
+<item itemtype="Package" CircId="Package-5" mainComp="false" Show_id="true" Show_Val="false" Pos="-172,-60" rotation="0" hflip="1" vflip="1" label="VOLTIMETRO" idLabPos="-3.81775,-20.737" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Board" Width="6" Height="2" Logic_Symbol="false" Background=":/null-0.png" BckGndData="89504e470d0a1a0a0000000d4948445200000002000000280806000000d4812b7400000006624b474400ff00ff00ffa0bda793000000097048597300000b1300000b1301009a9c180000000774494d4507e10105120132d51cacda0000000d4944415418d363601805f4000001680001d9b615b40000000049454e44ae426082" Pins="Pin; type=; xpos=-8; ypos=8; angle=180; length=8; space=0; id=In; label=&#xa;" />
+
+<item itemtype="Probe" CircId="Probe-1" mainComp="false" Show_id="false" Show_Val="true" Pos="-220,-68" rotation="-45" hflip="1" vflip="1" label="Probe-1" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" boardPos="-48,-48" circPos="-220,-68" boardRot="-45" circRot="-45" boardHflip="1" boardVflip="1" ShowVolt="true" Threshold="2.5 V" Small="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-2" mainComp="true" Show_id="false" Show_Val="false" Pos="-152,-96" rotation="0" hflip="1" vflip="1" label="TextComponent-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="4,4" circPos="-152,-96" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Links="Probe-1," Margin="-6 _px" Border="0 _px" Color="#ffffdc" Opacity="0" Font="arial" Font_Color="#ffffff" Font_Size="9 _px" Fixed_Width="false" Text=" $data0 " />
+
+<item itemtype="Tunnel" CircId="Tunnel-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-52" rotation="0" hflip="1" vflip="1" label="Tunnel-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-80,-32" circPos="-252,-52" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Name="In" IsBus="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-156" rotation="0" hflip="1" vflip="1" label="TextComponent-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-80,-96" circPos="-252,-156" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" Margin="0 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="VOLTIS. VOLTIMETER TEXT" />
+
+<item itemtype="Rectangle" CircId="Rectangle-8" mainComp="true" Show_id="false" Show_Val="false" Pos="-148,-28" rotation="0" hflip="1" vflip="1" label="Rectangle-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="24,8" circPos="-148,-28" boardRot="0" circRot="0" boardHflip="1" boardVflip="1" H_size="48 _px" V_size="16 _px" Border="1 _px" Z_Value="-1" Color="#00557f" Opacity="1" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Tunnel-4-pin" endpinid="Probe-1-inpin" pointList="-252,-52,-236,-52" />
+
+</circuit>
